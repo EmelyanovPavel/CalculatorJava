@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="end"
+        android:textColor="@color/black"
+        android:textSize="@dimen/display_text"
+        android:textStyle="bold"
+        tools:text="537*634"
+        />
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_clear"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="3"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:text="@string/_clear"
+            android:textColor="#303F9F"
+            android:textSize="@dimen/button_text"
+            tools:ignore="VisualLintButtonSize"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:text="@string/_1"
+            android:textColor="#303F9F"
+            android:textSize="@dimen/button_text"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/button_2"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:text="@string/_2"
+            android:textColor="#303F9F"
+            android:textSize="@dimen/button_text"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/button_3"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:text="@string/_3"
+            android:textColor="#303F9F"
+            android:textSize="@dimen/button_text"
+            tools:ignore="VisualLintButtonSize"
+            />
+
+        <Button
+            android:id="@+id/button_plus"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:text="@string/_plus"
+            android:textColor="#303F9F"
+            android:textSize="@dimen/button_text"
+            tools:ignore="VisualLintButtonSize"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_4"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:text="@string/_4"
+            android:textColor="#303F9F"
+            android:textSize="@dimen/button_text"
+            tools:ignore="VisualLintButtonSize"
+            />
+
+        <Button
+            android:id="@+id/button_5"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:text="@string/_5"
+            android:textColor="#303F9F"
+            android:textSize="@dimen/button_text"
+            tools:ignore="VisualLintButtonSize"
+            />
+
+        <Button
+            android:id="@+id/button_6"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:text="@string/_6"
+            android:textColor="#303F9F"
+            android:textSize="@dimen/button_text"
+            tools:ignore="VisualLintButtonSize"
+            />
+
+        <Button
+            android:id="@+id/button_times"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:text="@string/_multiply"
+            android:textColor="#303F9F"
+            android:textSize="@dimen/button_text"
+            tools:ignore="VisualLintButtonSize"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_7"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:text="@string/_7"
+            android:textColor="#303F9F"
+            android:textSize="@dimen/button_text"
+            tools:ignore="VisualLintButtonSize"
+            />
+
+        <Button
+            android:id="@+id/button_8"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:text="@string/_8"
+            android:textColor="#303F9F"
+            android:textSize="@dimen/button_text"
+            tools:ignore="VisualLintButtonSize"
+            />
+
+        <Button
+            android:id="@+id/button_9"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:text="@string/_9"
+            android:textColor="#303F9F"
+            android:textSize="@dimen/button_text"
+            tools:ignore="VisualLintButtonSize"
+            />
+
+        <Button
+            android:id="@+id/button_minus"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:text="@string/_minus"
+            android:textColor="#303F9F"
+            android:textSize="@dimen/button_text"
+            tools:ignore="VisualLintButtonSize"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_0"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:text="@string/_0"
+            android:textColor="#303F9F"
+            android:textSize="@dimen/button_text"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/button_point"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:text="@string/_point"
+            android:textColor="#303F9F"
+            android:textSize="@dimen/button_text"
+            tools:ignore="VisualLintButtonSize"
+            />
+
+        <Button
+            android:id="@+id/button_equal"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:text="@string/_equal"
+            android:textColor="#303F9F"
+            android:textSize="@dimen/button_text"
+            tools:ignore="VisualLintButtonSize"
+            />
+
+        <Button
+            android:id="@+id/button_divide"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="0"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:text="@string/_divide"
+            android:textColor="#303F9F"
+            android:textSize="@dimen/button_text"
+            tools:ignore="VisualLintButtonSize" />
+
+    </LinearLayout>
+
+</LinearLayout>
