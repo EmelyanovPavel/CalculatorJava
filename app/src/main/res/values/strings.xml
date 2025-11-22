@@ -17,5 +17,8 @@
     <string name="_6">6</string>
     <string name="_minus">-</string>
     <string name="_multiply">*</string>
-
+    <string name="_degree">^</string>
+    <string name="_percent">%</string>
+    <string name="divideByIks">1/x</string>
+    <string name="textview">Hello, I am Android!</string>
 </resources>

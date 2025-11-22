@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="version_names">
+        <item>Redmi</item>
+    </string-array>
+
+    <integer-array name="version_logos">
+        <item>@drawable/android_redmi</item>
+    </integer-array>
+</resources>

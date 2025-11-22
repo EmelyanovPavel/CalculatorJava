@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wall"
+    xmlns:tools="http://schemas.android.com/tools"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="8dp"
-    >
+    android:screenOrientation="landscape"
+    android:padding="8dp">
 
     <TextView
         android:layout_width="match_parent"
@@ -18,7 +17,7 @@
         android:textSize="@dimen/display_text"
         android:textStyle="bold"
         tools:text="537*634"
-        />
+        android:fontFamily="@font/lao_ui"/>
 
     <LinearLayout
         style="?android:attr/buttonBarStyle"
@@ -29,16 +28,58 @@
         <Button
             android:id="@+id/button_clear"
             style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="0dp"
+            android:layout_width="64dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:layout_weight="3"
+            android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_start_color"
+            android:fontFamily="@font/lao_ui"
             android:text="@string/_clear"
             android:textColor="#303F9F"
             android:textSize="@dimen/button_text"
-            tools:ignore="VisualLintButtonSize"
-            />
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/button_plus"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:fontFamily="@font/lao_ui"
+            android:text="@string/_plus"
+            android:textColor="#303F9F"
+            android:textSize="@dimen/button_text"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/button_divide"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:fontFamily="@font/lao_ui"
+            android:text="@string/_divide"
+            android:textColor="#303F9F"
+            android:textSize="@dimen/button_text"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/button_times"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:fontFamily="@font/lao_ui"
+            android:text="@string/_multiply"
+            android:textColor="#303F9F"
+            android:textSize="@dimen/button_text"
+            tools:ignore="VisualLintButtonSize" />
 
     </LinearLayout>
 
@@ -56,6 +97,7 @@
             android:layout_margin="8dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_start_color"
+            android:fontFamily="@font/lao_ui"
             android:text="@string/_1"
             android:textColor="#303F9F"
             android:textSize="@dimen/button_text"
@@ -69,6 +111,7 @@
             android:layout_margin="8dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_start_color"
+            android:fontFamily="@font/lao_ui"
             android:text="@string/_2"
             android:textColor="#303F9F"
             android:textSize="@dimen/button_text"
@@ -82,25 +125,25 @@
             android:layout_margin="8dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_start_color"
+            android:fontFamily="@font/lao_ui"
             android:text="@string/_3"
             android:textColor="#303F9F"
             android:textSize="@dimen/button_text"
-            tools:ignore="VisualLintButtonSize"
-            />
+            tools:ignore="VisualLintButtonSize" />
 
         <Button
-            android:id="@+id/button_plus"
+            android:id="@+id/button_minus"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_start_color"
-            android:text="@string/_plus"
+            android:fontFamily="@font/lao_ui"
+            android:text="@string/_minus"
             android:textColor="#303F9F"
             android:textSize="@dimen/button_text"
-            tools:ignore="VisualLintButtonSize"
-            />
+            tools:ignore="VisualLintButtonSize" />
 
     </LinearLayout>
 
@@ -118,11 +161,11 @@
             android:layout_margin="8dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_start_color"
+            android:fontFamily="@font/lao_ui"
             android:text="@string/_4"
             android:textColor="#303F9F"
             android:textSize="@dimen/button_text"
-            tools:ignore="VisualLintButtonSize"
-            />
+            tools:ignore="VisualLintButtonSize" />
 
         <Button
             android:id="@+id/button_5"
@@ -132,11 +175,11 @@
             android:layout_margin="8dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_start_color"
+            android:fontFamily="@font/lao_ui"
             android:text="@string/_5"
             android:textColor="#303F9F"
             android:textSize="@dimen/button_text"
-            tools:ignore="VisualLintButtonSize"
-            />
+            tools:ignore="VisualLintButtonSize" />
 
         <Button
             android:id="@+id/button_6"
@@ -146,25 +189,26 @@
             android:layout_margin="8dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_start_color"
+            android:fontFamily="@font/lao_ui"
             android:text="@string/_6"
             android:textColor="#303F9F"
             android:textSize="@dimen/button_text"
-            tools:ignore="VisualLintButtonSize"
-            />
+            tools:ignore="VisualLintButtonSize" />
 
         <Button
-            android:id="@+id/button_times"
+            android:id="@+id/button_persent"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_start_color"
-            android:text="@string/_multiply"
+            android:fontFamily="@font/lao_ui"
+            android:text="@string/_percent"
             android:textColor="#303F9F"
             android:textSize="@dimen/button_text"
-            tools:ignore="VisualLintButtonSize"
-            />
+            tools:ignore="VisualLintButtonSize" />
+
 
     </LinearLayout>
 
@@ -182,11 +226,11 @@
             android:layout_margin="8dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_start_color"
+            android:fontFamily="@font/lao_ui"
             android:text="@string/_7"
             android:textColor="#303F9F"
             android:textSize="@dimen/button_text"
-            tools:ignore="VisualLintButtonSize"
-            />
+            tools:ignore="VisualLintButtonSize" />
 
         <Button
             android:id="@+id/button_8"
@@ -196,11 +240,11 @@
             android:layout_margin="8dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_start_color"
+            android:fontFamily="@font/lao_ui"
             android:text="@string/_8"
             android:textColor="#303F9F"
             android:textSize="@dimen/button_text"
-            tools:ignore="VisualLintButtonSize"
-            />
+            tools:ignore="VisualLintButtonSize" />
 
         <Button
             android:id="@+id/button_9"
@@ -210,25 +254,26 @@
             android:layout_margin="8dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_start_color"
+            android:fontFamily="@font/lao_ui"
             android:text="@string/_9"
             android:textColor="#303F9F"
             android:textSize="@dimen/button_text"
-            tools:ignore="VisualLintButtonSize"
-            />
+            tools:ignore="VisualLintButtonSize" />
 
         <Button
-            android:id="@+id/button_minus"
+            android:id="@+id/button_degree"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_start_color"
-            android:text="@string/_minus"
+            android:fontFamily="@font/lao_ui"
+            android:text="@string/_degree"
             android:textColor="#303F9F"
             android:textSize="@dimen/button_text"
-            tools:ignore="VisualLintButtonSize"
-            />
+            tools:ignore="VisualLintButtonSize" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -237,18 +282,13 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/button_0"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:layout_weight="1"
-            android:backgroundTint="@color/cardview_shadow_start_color"
-            android:text="@string/_0"
-            android:textColor="#303F9F"
-            android:textSize="@dimen/button_text"
-            tools:ignore="VisualLintButtonSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="865dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/button_point"
@@ -258,11 +298,25 @@
             android:layout_margin="8dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_start_color"
+            android:fontFamily="@font/lao_ui"
             android:text="@string/_point"
             android:textColor="#303F9F"
             android:textSize="@dimen/button_text"
-            tools:ignore="VisualLintButtonSize"
-            />
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/button_0"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:fontFamily="@font/lao_ui"
+            android:text="@string/_0"
+            android:textColor="#303F9F"
+            android:textSize="@dimen/button_text"
+            tools:ignore="VisualLintButtonSize" />
 
         <Button
             android:id="@+id/button_equal"
@@ -272,25 +326,25 @@
             android:layout_margin="8dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_start_color"
+            android:fontFamily="@font/lao_ui"
             android:text="@string/_equal"
             android:textColor="#303F9F"
             android:textSize="@dimen/button_text"
-            tools:ignore="VisualLintButtonSize"
-            />
+            tools:ignore="VisualLintButtonSize" />
 
         <Button
-            android:id="@+id/button_divide"
+            android:id="@+id/button_divide2"
             style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="84dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:layout_weight="0"
+            android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_start_color"
-            android:text="@string/_divide"
+            android:fontFamily="@font/lao_ui"
+            android:text="@string/divideByIks"
             android:textColor="#303F9F"
             android:textSize="@dimen/button_text"
             tools:ignore="VisualLintButtonSize" />
 
     </LinearLayout>
-
 </LinearLayout>
