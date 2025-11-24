@@ -166,6 +166,29 @@ public class MainActivity extends AppCompatActivity {
         isDecimalAdded = false;
         binding.tvResult.setText("0");
     }
+
+    //Добавить минимум 1 сообщение в приложение калькулятор (любое, кроме Toast)
+    private void showStatusMessage(String message) {
+        binding.statusMessage.setText(message);
+        binding.statusMessage.setVisibility(View.VISIBLE);
+    }
+
+    private void hideStatusMessage() {
+        binding.statusMessage.setVisibility(View.GONE);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        binding = null;
+    }
+
+    void errorMessages() {
+        showStatusMessage("Внимание: результат приблизительный!");
+// Через 3 секунды скрыть:
+        new Handler(Looper.getMainLooper()).postDelayed(this::hideStatusMessage, 3000);
+    }
+    
 //Homework #9
     private void initSomeTexts() {
         Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/lao_ui.ttf");
