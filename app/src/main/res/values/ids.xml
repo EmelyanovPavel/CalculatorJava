@@ -2,4 +2,7 @@
 <resources>
     <item name="textView" type="id">Text view</item>
     <item name="imageView" type="id">image View</item>
+<!--    homework 11-->
+    <item name="nav_about" type="id">nav about</item>
+    <item name="nav_exit" type="id">nav exit</item>
 </resources>
