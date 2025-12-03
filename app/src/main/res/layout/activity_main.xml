@@ -26,6 +26,17 @@
             android:textSize="32sp"
             android:text="0" />
 
+        <TextView
+            android:id="@+id/statusMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#FF0000"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:visibility="gone" />
+
         <LinearLayout
             style="?android:attr/buttonBarStyle"
             android:layout_width="match_parent"
